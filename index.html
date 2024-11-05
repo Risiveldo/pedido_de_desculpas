@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia Dos Namorados</title>
+
+    <style>
+        body{
+            background-color: red;
+        }
+
+        .painel{
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #sim{
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: -50px;
+        }
+        #nao{
+            position: absolute;
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="painel">
+        <h1> Você me perdoa?</h1>
+
+        <img src="data:image/jpeg;base64,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" alt="">
+
+        <h2>Por favor... </h2>
+        
+
+        <a href="https://www.youtube.com/watch?v=2tHes1FQfwU"><button id="sim" > Sim! </button></a>
+        <button onmouseover="fuja()" id="nao"> Não! </button>
+        
+    </div>
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+
+
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
